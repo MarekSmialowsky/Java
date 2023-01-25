@@ -12,7 +12,7 @@ public class Calculator {
         int odejmowanie = firstNumber - secondNumber;
         int mnozenie = firstNumber * secondNumber;
         int dzielenie = firstNumber / secondNumber;
-        int  reszta = firstNumber % secondNumber;
+        int reszta = firstNumber % secondNumber;
 
         System.out.println("wynik dodawania " + dodawanie);
         System.out.println("wynik odejmowania " + odejmowanie);
