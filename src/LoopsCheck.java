@@ -19,6 +19,7 @@ public class LoopsCheck {
             System.out.println(numbers[i]);
         }
 
+
     }
 
 
