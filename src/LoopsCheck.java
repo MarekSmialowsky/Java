@@ -16,7 +16,7 @@ public class LoopsCheck {
         }
 
         for (int i= 0; i < numbers.length; i++) {
-            System.out.println(i);
+            System.out.println(numbers[i]);
         }
 
     }
