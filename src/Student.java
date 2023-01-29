@@ -11,7 +11,6 @@ public class Student {
         System.out.println("Nazywam się " + name + " " + secondName);
     }
 
-
     public void zalogujSie(){
         System.out.println("Loguje sie do skrzynki "+ emailAddress + " za pomocą " + nick);
     }
