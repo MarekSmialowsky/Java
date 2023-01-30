@@ -1,24 +1,26 @@
-import java.util.Scanner;
-
 public class Calculator {
-    public static void main(String[] args) {
-        System.out.println("Podaj pierwszą liczbę");
-        Scanner scanner = new Scanner(System.in);
-        int firstNumber = scanner.nextInt();
-        System.out.println("Podaj drugą liczbę");
-        int secondNumber = scanner.nextInt();
+    public int add(int firstNumber, int secondNumber){
+       // System.out.println("Wynik dodawania to: " + (firstNumber + secondNumber) );
+        return firstNumber + secondNumber;
+    }
 
-        int dodawanie = firstNumber + secondNumber;
-        int odejmowanie = firstNumber - secondNumber;
-        int mnozenie = firstNumber * secondNumber;
-        int dzielenie = firstNumber / secondNumber;
-        int reszta = firstNumber % secondNumber;
+    public int sub(int firstNumber, int secondNumber){
+      //  System.out.println("Wynik odejmowania to: " + (firstNumber - secondNumber) );
+        return firstNumber - secondNumber;
+    }
 
-        System.out.println("wynik dodawania " + dodawanie);
-        System.out.println("wynik odejmowania " + odejmowanie);
-        System.out.println("wynik mnożenia " + mnozenie);
-        System.out.println("wynik dzielenia " + dzielenie);
-        System.out.println("wynik reszty z dzielenia " + reszta);
 
+    public int multi(int firstNumber, int secondNumber){
+      //  System.out.println("Wynik mnożenia to: " + (firstNumber * secondNumber) );
+        return firstNumber * secondNumber;
+    }
+
+    public int div(int firstNumber, int secondNumber){
+            return firstNumber / secondNumber;
+    }
+
+    public int mod(int firstNumber, int secondNumber){
+     //   System.out.println("Modulo to: " + (firstNumber % secondNumber) );
+        return firstNumber % secondNumber;
     }
 }
